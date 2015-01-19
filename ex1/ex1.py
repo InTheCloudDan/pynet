@@ -1,11 +1,8 @@
 from snmp_helper import snmp_get_oid,snmp_extract
-COMMUNITY_STRING = 'galileo'
-SNMP_PORT = [7961, 8061]
-SNMP_PORT1 = 8061
-IP = '50.242.94.227'
+COMMUNITY_STRING = 'xxxxxxx'
+SNMP_PORT = [7xxx, 8xxx]
+IP = 'xx.xxx.xx.xxx'
 
-a_device = (IP, COMMUNITY_STRING, SNMP_PORT[0])
-b_device = (IP, COMMUNITY_STRING, SNMP_PORT[1])
 device = [(IP, COMMUNITY_STRING, SNMP_PORT[0]),(IP, COMMUNITY_STRING, SNMP_PORT[1])]
 
 OID = ['1.3.6.1.2.1.1.5.0', '1.3.6.1.2.1.1.1.0']
